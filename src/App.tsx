@@ -17,7 +17,7 @@ function App() {
   const [isRevealed, setIsRevealed] = useState(false);
 
   // Sonidito
-  const whosThatPokemonSound = new Audio('/public/audiojiji.mp3');
+  const whosThatPokemonSound = new Audio('/audiojiji.mp3');
 
 
   const retornaPokemon = async() => {
